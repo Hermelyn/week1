@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Inloggen - Travelstories</title>
+  <title>Registreren - Travelstories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/main.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,35 +29,22 @@
 <div class=content-wrapper>
 
   <form>
-    <fieldset class="login-screen">
+    <fieldset>
+      <legend>Account aanmaken</legend>
+      <label for="username">E-mailadres</label>
+      <input class="input-form" type="text" id="username" name="username" placeholder="voorbeeld@travelstories.com" required>
 
-      <legend class="login-legend">Inloggen</legend>
-      <label for="username"></label>
-      <input class="login-bar" type="text" name="username" placeholder="Gebruikersnaam" required>
+      <label for="password">Wachtwoord</label>
+      <input class="registereren-bar" type="password" name="password" placeholder="Wachtwoord" required>
+      <p>Minimaal 6 karakters. Een sterk wachtwoord bestaat uit kleine letters, hoofdletters, cijfers en speciale tekens.</p>
 
-      <label for="password"></label>
-      <input class="login-bar" type="password" name="password" placeholder="Wachtwoord" required>
-
-      <input class="login-checkbox" type="checkbox" name="Wachtwoord onthouden">
-      <p class="login-p">Wachtwoord onthouden</p>
-
-
-      <button class="button-register" type="submit">Inloggen</button>
-
-      <a href="#">
-        <p>Wachtwoord vergeten?</p>
-      </a>
-
-      <a href="#">
-        <p>E-mailadres vergeten?</p>
-      </a>
-
-      <a href="registreren.html">
-        <p class="login-p">Heb je nog geen account op Travelstories.com? Registreren!</p>
-      </a>
+      <label for="password">Wachtwoord bevestigen</label>
+      <input class="registereren-bar" type="password" name="password" placeholder="Wachtwoord" required>
 
     </fieldset>
+    <button class="button-form" type="submit">Account aanmaken</button>
   </form>
+
 </div>
 
 <footer>
