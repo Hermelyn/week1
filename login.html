@@ -2,70 +2,71 @@
 <html lang="nl">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Inloggen - Travelstories</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/main.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title>Inloggen - Travelstories</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<header>
-  <a href="https://www.travelstories.com">
-    <img src="images/transavia_logo.png" alt="Travel stories home button">
-  </a>
 
-  <form>
-    <input type="text" name="search" placeholder="Zoek een verhaal">
-  </form>
+<body>
+	<header>
+		<a href="https://www.travelstories.com">
+			<img src="images/transavia_logo.png" alt="Travel stories home button">
+		</a>
 
-  <nav>
-    <ul class="menu">
-      <li><a href="#favorieten">Favorieten</a></li>
-      <li><a href="profiel">Profiel</a></li>
-    </ul>
-  </nav>
-</header>
+		<form>
+			<input type="text" name="search" placeholder="Zoek een verhaal">
+		</form>
 
-<div class=content-wrapper>
+		<nav>
+			<ul class="menu">
+				<li><a href="#favorieten">Favorieten</a></li>
+				<li><a href="profiel">Profiel</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  <form>
-    <fieldset class="login-screen">
+	<main>
+		<form>
+			<fieldset class="login-screen">
 
-      <legend class="login-legend">Inloggen</legend>
-      <label for="username">Gebruikersnaam</label>
-      <input class="login-bar" type="text" name="username" placeholder="Gebruikersnaam" required>
+				<legend class="login-legend">Inloggen</legend>
+				<label for="username">Gebruikersnaam</label>
+				<input class="login-bar" type="text" name="username" id="username" placeholder="Gebruikersnaam" required>
 
-      <label for="password">Wachtwoord</label>
-      <input class="login-bar" type="password" name="password" placeholder="Wachtwoord" required>
+				<label for="password">Wachtwoord</label>
+				<input class="login-bar" type="password" name="password" placeholder="Wachtwoord" required>
 
-      <input class="login-checkbox" type="checkbox" name="Wachtwoord onthouden">
-      <p class="login-p">Wachtwoord onthouden</p>
+				<input class="login-checkbox" type="checkbox" name="Wachtwoord onthouden" id="password">
+				<p class="login-p">Wachtwoord onthouden</p>
 
 
-      <button class="button-register" type="submit">Inloggen</button>
+				<button class="button-register" type="submit">Inloggen</button>
 
-      <a href="#">
-        <p>Wachtwoord vergeten?</p>
-      </a>
+				<a href="#">
+					<p>Wachtwoord vergeten?</p>
+				</a>
 
-      <a href="#">
-        <p>E-mailadres vergeten?</p>
-      </a>
+				<a href="#">
+					<p>E-mailadres vergeten?</p>
+				</a>
 
-      <a href="registreren.html">
-        <p class="login-p">Heb je nog geen account op Travelstories.com? Registreren!</p>
-      </a>
+				<a href="registreren.html">
+					<p class="login-p">Heb je nog geen account op Travelstories.com? Registreren!</p>
+				</a>
 
-    </fieldset>
-  </form>
-</div>
+			</fieldset>
+		</form>
+	</main>
 
-<footer>
-  <a href="#" class="fa fa-facebook">Facebook</a>
-  <a href="#" class="fa fa-twitter">Twitter</a>
-  <a href="#" class="fa fa-instagram">Instagram</a>
-  <p>© 2017 - www.travelstories.com</p>
-</footer>
+	<footer>
+		<a href="#" class="fa fa-facebook">Facebook</a>
+		<a href="#" class="fa fa-twitter">Twitter</a>
+		<a href="#" class="fa fa-instagram">Instagram</a>
+		<p>© 2017 - www.travelstories.com</p>
+	</footer>
 
 </body>
 
